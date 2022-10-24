@@ -50,9 +50,11 @@ const Navbar = () => {
           </Link> */}
                    <div className={styles1.imgdiv}>
                    <Link href='/'>
+                   <a>
                    <picture>
-                   <a><img src="techfallacy-4.png" alt="" className={styles1.img} /></a>
+                   <img src="techfallacy-4.png" alt="" className={styles1.img} />
                    </picture>
+                   </a>
                    </Link>
                    </div>
         <ul data-visible={boola} className='menu' >

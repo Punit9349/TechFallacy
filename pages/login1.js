@@ -9,7 +9,7 @@ const Login1 = () => {
         return (
           <div className='my-44'>
             <p>Welcome, {session.user.email}</p>
-            <a><img src={session.user.image} alt="" style={{borderRadius: '50px'}}/></a>
+            <a><picture><img src={session.user.image} alt="" style={{borderRadius: '50px'}}/></picture></a>
             <button onClick={()=> signOut()}>SignOut</button>
           </div>
         );
