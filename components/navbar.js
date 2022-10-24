@@ -10,10 +10,10 @@ import styles1 from '../styles/Navbar.module.css'
 const Navbar = () => { 
       const router = useRouter()
       const [boola, setboola] = useState(false);
-      const [func, setfunc] = useState("");
+      const [func, setfunc] = useState("flex");
       const [func1, setfunc1] = useState("none");
       const [logg, setlogg] = useState("none");
-      const [logg1, setlogg1] = useState("");
+      const [logg1, setlogg1] = useState("flex");
       console.log(func1);
       const onChange=()=>{
          setboola(true);
@@ -45,9 +45,6 @@ const Navbar = () => {
       return (
         <div>
           <nav className={styles1.mainnav}  >
-          {/* <Link href='/' >
-             <a><h3 className={styles1.logo} >TechnoBlogs</h3></a>
-          </Link> */}
                    <div className={styles1.imgdiv}>
                    <Link href='/'>
                    <a>
