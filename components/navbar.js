@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import {useState} from 'react'
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
@@ -39,7 +40,7 @@ const Navbar = () => {
         }
       
       
-      }, )
+      },[] )
       
       return (
         <div>
@@ -49,7 +50,9 @@ const Navbar = () => {
           </Link> */}
                    <div className={styles1.imgdiv}>
                    <Link href='/'>
-                   <a><img src="http://localhost:3000/techfallacy-4.png" alt="" className={styles1.img} /></a>
+                   <picture>
+                   <a><img src="techfallacy-4.png" alt="" className={styles1.img} /></a>
+                   </picture>
                    </Link>
                    </div>
         <ul data-visible={boola} className='menu' >
