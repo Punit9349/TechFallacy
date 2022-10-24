@@ -1,0 +1,77 @@
+.img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.main {
+    min-height: 77vh;
+    margin-top: 80px;
+    padding: 4rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 3 rem;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0);
+    padding-top: 54px;
+   
+  }
+  
+  .title1{
+    font-size: 37px;
+    font-family: cursive;
+    padding-top:60px;
+    color: white;
+  }
+
+  .title{
+    font-size: 37px;
+    font-family: cursive;
+    padding-top:47px;
+    color: black;
+  }
+
+  .title2{
+    font-size: 37px;
+    font-family: cursive;
+    padding-top:0px;
+    color: black;
+    text-align: center;
+  }
+
+  .description {
+    margin: 2rem 0;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 10px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .title1{
+      font-size: 32px;
+      font-family: cursive;
+      padding-top:50px;
+      padding-bottom: 9px;
+      color: white;
+    }
+
+    .description {
+      margin: 2rem 0;
+      line-height: 1.5;
+      font-size: 1.5rem;
+      color: white;
+      margin-top: 0px;
+      padding-left: 3px;
+      padding-right: 3px;
+    }
+  }
+
+
+
+  .title,
+  .description {
+    text-align: center;
+  }
