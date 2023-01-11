@@ -10,7 +10,7 @@ import styles1 from '../styles/Navbar.module.css'
 const Navbar = () => { 
       const router = useRouter()
       const [boola, setboola] = useState(false);
-      const [func, setfunc] = useState("flex");
+      const [func, setfunc] = useState("");
       const [func1, setfunc1] = useState("none");
       const [logg, setlogg] = useState("none");
       const [logg1, setlogg1] = useState("flex");
@@ -49,7 +49,7 @@ const Navbar = () => {
                    <Link href='/'>
                    <a>
                    <picture>
-                   <img src="techfallacy-4.png" alt="" className={styles1.img} />
+                   <img src="/techfallacy-4.png" alt="" className={styles1.img} />
                    </picture>
                    </a>
                    </Link>
